@@ -53,26 +53,29 @@ body {
 
 .right-nav li {
   list-style-type: none;
-  padding: 12px 20px;
+  float: left;
 }
 
 .right-nav li a {
   text-decoration: none;
+  display: block;
   color: #239dff;
+  padding: 12px 20px;
 }
 
 .login {
   float: left;
 }
 
+.button:hover {
+  background: #239dff;
+  color: #fff;
+}
+
 .button {
   float: left;
   border: 1px solid #239dff;
   border-radius: 5px;
-}
-
-.login li:hover {
-  border-bottom: 1px solid #239dff;
 }
 
 .clear {
